@@ -11,7 +11,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Doker
 
 Run `docker run -p <free-port>:80 wilpat/switch_assessment:1.00` to run the app in a docker container. 
-Navigate to http://localhost:<free-port>.
+Navigate to http://localhost:chosen-free-port.
 
 ## Github.io
 
