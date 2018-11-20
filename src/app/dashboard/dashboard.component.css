@@ -1,0 +1,145 @@
+/*This is the section for the index*/
+.rq_nav  {
+    position: fixed;
+    z-index: 5;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    padding: 0 20px;
+    height: 50px;
+}
+.rq_nav svg {
+    float: left;
+    position: relative;
+    top: 10px;
+    display: none;
+}
+.rq_nav .rq_brand {
+    width: 140px;
+    position: relative;
+    top: 14px;
+    float: left;
+}
+.rq_nav .rq_user {
+    width: 35px;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0,0,0,.4);
+    position: relative;
+    top:6px;
+    float: right;
+}
+.rq_nav i {
+    background-color: #b9b9b9;
+    width: 25px;
+    height: 25px;
+    float: right;
+    border-radius: 50%;
+    margin: 10px 20px;
+    position: relative;
+    top:3px;
+}
+.rq_main {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    overflow: auto;
+    right:0;
+    background-color: #fff;
+    padding:0 70px;
+}
+.rq_main .rq_main_header {
+    width: 100%;
+}
+.rq_main_header h2 {
+    color: #201f1f;
+    margin: 0;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: normal;
+}
+.rq_chart_box {
+    position: relative;
+    border:solid 1px #cbcbcb;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.rq_chart_box_sm {
+    height: 230px;
+}
+.rq_chart_box_bg {
+    height: 480px;
+}
+.rq_chart_box_green {
+    border-bottom: solid 2px lightseagreen;
+}
+.rq_chart_box_red {
+    border-bottom: solid 2px #df6783;
+}
+.rq_chart_box_purple {
+    border-bottom: solid 2px mediumpurple;
+}
+.rq_chart_box_blue {
+    border-bottom: solid 2px #59b9db;
+}
+.rq_chart_box_header {
+    border-bottom: solid 1px #cbcbcb;
+    padding: 10px 20px;
+    float: left;
+    width: 100%;
+}
+.rq_chart_box_body {
+    padding: 25px 15px;
+    float: left;
+    width: 100%;
+}
+.rq_chart_box_header h3 {
+    margin: 0;
+    font-size: 13px;
+    color: #3d3d3d;
+    float: left;
+    position: relative;
+    top: 3px;
+}
+.rq_chart_box_header button {
+    border-radius: 20px;
+    padding: 5px 20px;
+    border:none;
+    background-color: transparent;
+    font-size: 12px;
+}
+.rq_chart_box_header button.red {
+    background-color: #ba0000;
+    color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+}
+.rq_chart_box_body h1 {
+    font-size: 25px;
+    color: #201f1f;
+    margin: 0;
+}
+.rq_chart_box_body h3 {
+    font-size: 14px;
+    color: #201f1f;
+    margin: 0;
+    padding:5px;
+    font-weight: bold;
+}
+.rq_chart_box_body p {
+    font-size: 13px;
+    color: #201f1f;
+    margin: 0;
+    padding: 6px;
+}
+.rq_main_header .rq_search {
+    float: right;
+    width: 200px;
+    padding:10px;
+    border:solid 2px #ddd;
+}
+#smallimg, #big{
+    margin-top: 16.2%;
+}
+#big{
+    width: 101%;
+    margin-left: -0.5%;
+}

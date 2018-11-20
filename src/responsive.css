@@ -1,0 +1,41 @@
+@media(max-width: 768px) {
+    .rq_nav .rq_brand {
+        width:90px;
+        top: 17px;
+    }
+    .rq_sidebar {
+        position: fixed;
+        z-index: 2;
+        width: 78%;
+        display: none;
+    }
+    .rq_main {
+        position: fixed;
+        width: 100%;
+        padding:0;
+    }
+    .rq_search {
+        width: 100% !important;
+        margin: 10px 0;
+    }
+    .rq_main_header form {
+        width: 100%;
+    }
+    .rq_rolldownbutton .rq_rolldropdown {
+        left: -90px;
+    }
+    .rq_nav svg {
+        display: block;
+        margin-left: -16px;
+        margin-right: 5px;
+    }
+    img#big{
+
+        margin-top: 24% !important;
+        margin-left: 0% !important;
+    }
+    img#smallimg{
+        margin-left: 25%;
+        /* width: 0.5% !important; */
+    }
+}

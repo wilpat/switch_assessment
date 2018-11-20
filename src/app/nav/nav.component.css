@@ -1,0 +1,40 @@
+.rq_nav  {
+    position: fixed;
+    z-index: 5;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    padding: 0 20px;
+    height: 50px;
+}
+.rq_nav svg {
+    float: left;
+    position: relative;
+    top: 10px;
+    display: none;
+}
+.rq_nav .rq_brand {
+    width: 140px;
+    position: relative;
+    top: 14px;
+    float: left;
+}
+.rq_nav .rq_user {
+    width: 35px;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0,0,0,.4);
+    position: relative;
+    top:6px;
+    float: right;
+}
+.rq_nav i {
+    background-color: #b9b9b9;
+    width: 25px;
+    height: 25px;
+    float: right;
+    border-radius: 50%;
+    margin: 10px 20px;
+    position: relative;
+    top:3px;
+}

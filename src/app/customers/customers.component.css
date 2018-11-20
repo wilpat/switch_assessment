@@ -1,0 +1,198 @@
+.rq_main {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    overflow: auto;
+    right:0;
+    background-color: #fff;
+    padding:0 70px;
+}
+.rq_main .rq_main_header {
+    width: 100%;
+}
+.rq_main_header h2 {
+    color: #201f1f;
+    margin: 0;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: normal;
+}
+.rq_main_header .rq_search {
+    float: right;
+    width: 200px;
+    padding:10px;
+    border:solid 2px #ddd;
+}
+
+.rq_adjustable {
+    width: 100%;
+    overflow: auto;
+}
+table {
+    font-family: arial, sans-serif;
+    /* border-collapse: collapse; */
+    width: 100%;
+}
+
+th {
+    text-align: left;
+    padding: 8px 20px;
+    font-size: 12px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: normal;
+    color: #a2a2a2;
+}
+td {
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    color: #a2a2a2;
+}
+.rq_pagination {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+.rq_pagination button {
+    padding: 5px 11px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 3px;
+    border:solid 1px #a2a2a2;
+    color: #a2a2a2;
+}
+.rq_pagination span {
+    font-size: 12px;
+    padding: 0 30px;
+    color: #a2a2a2;
+}
+.rq_details {
+    width: 100%;
+}
+.rq_details p {
+    margin: 0;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #a2a2a2;
+    font-size: 12px;
+}
+.rq_details p span {
+    text-decoration: underline;
+}
+.rq_main table td sub {
+    width: 8px;
+    height: 8px;
+    background-color: #81d681;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+}
+.rq_main table td sup {
+    float: right;
+    position: relative;
+    top: -4px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.rq_main_header .rq_rolldownbutton {
+    padding:3px 5px;
+    /*padding-right: 30px;*/
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    float: left;
+    height: 25px;
+    position: relative;
+    top: 5px;
+}
+.rq_rolldownbutton span {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 13px;
+    color: #a2a2a2;
+}
+.rq_rolldownbutton .rq_rollcaret {
+    background-color: #000;
+    padding:6px;
+    border-radius: 50%;
+    color: #ffffff;
+    float: right;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    margin-left:4px;
+    margin-right: -5px;
+    margin-top: -3px;
+    cursor: pointer;
+}
+.rq_rolldownbutton .rq_rolldropdown {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    left: 0;
+    top: 33px;
+    padding: 20px;
+    border-radius: 3px;
+    z-index: 2;
+    display: none;
+    transition: all 4.3s ease-in;
+}
+.rq_rolldropdown ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.rq_rolldropdown ul li {
+    padding: 6px 10px;
+    font-size: 13px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #a2a2a2;
+    cursor: pointer;
+}
+.rq_rolldropdown ul li:hover {
+    box-shadow: 0 3px 5px rgba(0,0,0,.1);
+    border-radius: 3px;
+}
+.rq_rolldropdown ul li.active {
+    background: #000;
+    color: #ffffff;
+    border-radius: 3px;
+}
+.rq_rolldropdown button {
+    border-radius: 20px;
+    padding: 7px 20px;
+    border:solid 1px #000;
+    margin-top: 20px;
+    font-size: 12px;
+    background-color: transparent;
+}
+.rq_rolldropdown button.redd {
+    background-color: #ba0000;
+    color: #ffffff;
+    border: none;
+}
+.rq_main_header button.new_user {
+    padding:10px 45px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    background-color: #515976;
+    color: #ffffff;
+    border-radius: 3px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 12px;
+    float: right;
+}
+table{
+    border-spacing: 0px 3px;
+}
+table tr td:nth-child(1) {
+    border-left: 1px solid #dddddd;
+}
+table tr td:nth-child(6) {
+    border-right: 1px solid #dddddd;
+}

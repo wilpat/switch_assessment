@@ -1,0 +1,85 @@
+.rp_banner {
+    z-index: 10;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    top:0;
+    bottom: 0;
+    float: left;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rq_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.2);
+}
+
+.rq_login_box {
+    height: 450px;
+    background-color: #fff;
+    margin: 30% 0;
+    box-shadow: 0 5px 8px rgba(0,0,0, .2);
+    border-radius: 3px;
+    padding: 25px;
+}
+.rq_login_box h1 {
+    color: #363c48;
+    float: left;
+    margin: 0;
+    font-size: 24px;
+    position: relative;
+    top: 7px;
+}
+.rq_login_box img {
+    float: right;
+    width: 80px;
+}
+.rq_login_box label {
+    float: left;
+    width: 100%;
+    color: #a2a2a2;
+    padding-bottom: 7px;
+}
+.rq_login_box input {
+    border:solid 1px #eeeeee;
+    float: left;
+    padding: 10px 20px;
+    width: 100%;
+    box-shadow: inset 0 1px 5px #eee;
+    margin-bottom: 10px;
+}
+.rq_login_box a {
+    color: #b9b9b9;
+    text-decoration: none;
+    font-size: 12px;
+}
+.rq_login_box button {
+    background-color: #ba0000;
+    padding: 14px 20px;
+    color: #ffffff;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+.rq_login_box button i {
+    font-style: normal;
+    text-align: right !important;
+    float: right;
+}
+.rq_login_box button.btn2 {
+    background: #ffffff;
+    border:solid 2px #ba0000;
+    color: #000;
+    margin-top: 6px;
+}
+.rq_login_box p {
+    margin: 0;
+    margin-top: 10px;
+    color: #535353;
+    font-size: 12px;
+}
